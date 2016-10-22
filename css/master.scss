@@ -1,0 +1,120 @@
+//placeholder background color
+$grey: #ffffff; //Text colors
+$header-one: #404040;
+$header-two: #888888;
+$main-p: #464646; //Other Colors
+$border: #989898; //Tag Styles
+
+body {
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: $header-one;
+    font-size: 65px;
+    font-weight: lighter;
+    text-align: center;
+    margin: 0;
+}
+
+h2 {
+    color: $header-two;
+    font-size: 35px;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+img {
+    display: inline-block;
+    width: 175px;
+    height: 175px;
+    border-radius: 100%;
+    border: 2px solid $header-two;
+}
+
+hr {
+    border: 1px solid $border;
+    margin-bottom: 20px;
+}
+
+.resume-body {
+    padding: 0 50px;
+    background-color: $grey;
+}
+
+.pi,
+.we,
+.next {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.desc,
+.description,
+.position,
+.topic {
+    display: inline-table;
+}
+//Personal Information
+
+.pi {
+    .pi-body {
+        display: inline-flex;
+        width: 70%;
+        min-height: 200px;
+    }
+
+    .pi-pic {
+        float: right;
+        display: flex;
+        justify-content: center;
+        width: 30%;
+    }
+
+    .topic {
+        font-weight: bold;
+        text-align: right;
+
+        li {
+            text-align: center;
+        }
+    }
+}
+.quote{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 10%;
+}
+//Work Experience + Education
+
+.edu,
+.we,
+.next {
+    .position {
+        font-weight: bold;
+        width: 20%;
+    }
+
+    .description {
+        width: 70%;
+
+        .date,
+        .title {
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        .date {
+            float: right;
+        }
+    }
+}

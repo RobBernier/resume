@@ -1,0 +1,94 @@
+body {
+  font-family: 'Lato', sans-serif;
+  padding: 0;
+  margin: 0; }
+
+h1 {
+  color: #404040;
+  font-size: 65px;
+  font-weight: lighter;
+  text-align: center;
+  margin: 0; }
+
+h2 {
+  color: #888888;
+  font-size: 35px;
+  text-align: center; }
+
+li {
+  list-style: none;
+  font-size: 18px;
+  line-height: 25px; }
+
+img {
+  display: inline-block;
+  width: 175px;
+  height: 175px;
+  border-radius: 100%;
+  border: 2px solid #888888; }
+
+hr {
+  border: 1px solid #989898;
+  margin-bottom: 20px; }
+
+.resume-body {
+  padding: 0 50px;
+  background-color: #ffffff; }
+
+.pi,
+.we,
+.next {
+  padding: 0;
+  margin: 0;
+  width: 100%; }
+
+.desc,
+.description,
+.position,
+.topic {
+  display: inline-table; }
+
+.pi .pi-body {
+  display: inline-flex;
+  width: 70%;
+  min-height: 200px; }
+.pi .pi-pic {
+  float: right;
+  display: flex;
+  justify-content: center;
+  width: 30%; }
+.pi .topic {
+  font-weight: bold;
+  text-align: right; }
+  .pi .topic li {
+    text-align: center; }
+
+.quote {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 10%; }
+
+.edu .position,
+.we .position,
+.next .position {
+  font-weight: bold;
+  width: 20%; }
+.edu .description,
+.we .description,
+.next .description {
+  width: 70%; }
+  .edu .description .date,
+  .edu .description .title,
+  .we .description .date,
+  .we .description .title,
+  .next .description .date,
+  .next .description .title {
+    font-weight: bold;
+    display: inline-block; }
+  .edu .description .date,
+  .we .description .date,
+  .next .description .date {
+    float: right; }
+
+/*# sourceMappingURL=style.css.map */
